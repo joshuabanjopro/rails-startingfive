@@ -33,8 +33,9 @@ body {
 
 .react-playercard {
     width: 900px;
+    height: 700px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

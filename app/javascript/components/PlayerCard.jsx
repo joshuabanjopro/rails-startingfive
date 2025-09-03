@@ -50,6 +50,9 @@ const PlayerCard = ({player}) => {
                     <img src={BlocksIcon} alt="" />
                     <p>{player.blocks}</p>
                 </div>
+                <a href={`/players/`}>
+                    <button>Back Home</button>
+                </a>
             </div>
         </div>
     )
