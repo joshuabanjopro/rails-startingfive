@@ -1,5 +1,5 @@
-<h2>Starting 5</h2>
+<div class="std-title-div">
+    <h1>🏀 ⛹⛹🏿‍♂️⛹🏻‍♀️ Starting 5 For The <%= @players.first.season %> Szn ⛹⛹🏿‍♂️⛹🏻‍♀️ 🏀</h1>
+</div>
 
-<% @players.each do |player| %>
-    <h3><%= player.name %></h3>
-<% end %>
+<div id="playercards-list" data-bestplayersmetrics="<%= @players.to_json %>"></div>

@@ -1,10 +1,6 @@
-<h2><%= @player.name %></h2>
 
-<h3><%= @player.position %></h3>
+<div class="std-title-div">
+    <h1>🏀 ⛹⛹🏿‍♂️⛹🏻‍♀️ Key Stats for the <%= @player.season %> Season ⛹⛹🏿‍♂️⛹🏻‍♀️ 🏀</h1>
+</div>
 
-<p><%= @player.assists %></p>
-<p><%= @player.steals %></p>
-<p><%= @player.blocks %></p>
-<p><%= @player.points %></p>
-<p><%= @player.team %></p>
-<p><%= @player.season %></p>
+<div id="playercard" data-playerstats="<%= @player.to_json %>"></div>
