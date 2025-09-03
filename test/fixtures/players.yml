@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  position: MyString
+  assists: 1
+  steals: 1
+  blocks: 1
+  points: 1
+  team: MyString
+  season: 1
+
+two:
+  name: MyString
+  position: MyString
+  assists: 1
+  steals: 1
+  blocks: 1
+  points: 1
+  team: MyString
+  season: 1
