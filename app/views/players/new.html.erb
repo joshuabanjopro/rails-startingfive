@@ -1,0 +1,13 @@
+<h2>Add a new professional player to our collection ⛹</h2>
+
+<%= simple_form_for(@player) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :position %>
+    <%= f.input :assists %>
+    <%= f.input :steals %>
+    <%= f.input :blocks %>
+    <%= f.input :points %>
+    <%= f.input :team %>
+    <%= f.input :season %>
+    <%= f.submit %>
+<% end %>

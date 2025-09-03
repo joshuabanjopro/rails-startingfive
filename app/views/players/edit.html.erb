@@ -1,0 +1,13 @@
+<h2>Make an update to the current stats for a player of your choice ⛹</h2>
+
+<%= simple_form_for(@player) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :position %>
+    <%= f.input :assists %>
+    <%= f.input :steals %>
+    <%= f.input :blocks %>
+    <%= f.input :points %>
+    <%= f.input :team %>
+    <%= f.input :season %>
+    <%= f.submit %>
+<% end %>
